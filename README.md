@@ -31,6 +31,19 @@ The analysis includes:
 ---
 
 ## ⚙️ Execution Order
+```bash
+git pull
+python -m venv .venv
+source .venv/bin/activate    # (Linux/Mac)
+.venv\Scripts\activate       # (Windows)
+pip install -r requirements.txt
+python make_quarterly.py
+python prepare_features.py.py
+python split_vif_check.py
+python train_models.py
+python phase3_coeffs_and_residuals.py
+python phase3_residual_analysis.py
+```
 Run the scripts **in the following order** to reproduce the analysis:
 
 1. **make_quarterly.py**  
