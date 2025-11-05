@@ -94,6 +94,6 @@ results_df = pd.DataFrame(results)
 results_df = results_df[["Target", "Model", "R2_train", "R2_test", "RMSE_test", "MAE_test"]]
 results_df.to_csv("../data/model_results.csv", index=False)
 
-print("\n✅ Model training & evaluation complete.")
+print("\nSUCCESS: Model training & evaluation complete.")
 print("Results saved to '../data/model_results.csv'")
 print(results_df)
