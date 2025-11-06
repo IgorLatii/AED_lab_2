@@ -32,7 +32,7 @@ The analysis includes:
 
 ## ⚙️ Execution Order
 ```bash
-git pull
+git clone https://github.com/IgorLatii/AED_lab_2.git
 python -m venv .venv
 source .venv/bin/activate    # (Linux/Mac)
 .venv\Scripts\activate       # (Windows)
